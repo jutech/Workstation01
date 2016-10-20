@@ -1,0 +1,9 @@
+---
+- name: Install jenkins 
+  hosts: 54.246.180.147
+  remote_user: ubuntu
+  sudo: True
+  roles:
+    - git
+    - geerlingguy.jenkins
+
