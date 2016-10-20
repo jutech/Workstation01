@@ -1,6 +1,6 @@
 ---
 - name: Install jenkins 
-  hosts: 54.246.180.147
+  hosts: tag_Name_Workstation01
   remote_user: ubuntu
   sudo: True
   roles:

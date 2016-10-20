@@ -1,1 +1,3 @@
-# Hi
+# Hii
+terraform plan / apply
+ansible-playbook workstation01-Ansible.yml --private-key ~/.ssh/EC2Proton.pem
